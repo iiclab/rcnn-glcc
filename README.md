@@ -6,7 +6,7 @@ This is reimplementation of [glcc-frcn.pytorch](https://github.com/iiclab/glcc-f
 
 1. Install the [detectron2](https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md)
 2. Clone this repository.
-3. Put [data/, output/, zoo/ (3.4GB)](http://iic.ecei.tohoku.ac.jp/~tomo/rcnn-glcc.tar.gz) to ```path/to/the/repo/```.  
+3. Put [data/, output/, zoo/ (3.4GB)](http://www.iic.ecei.tohoku.ac.jp/~tomo/rcnn-glcc.tar.gz) to ```path/to/the/repo/```.  
 4. Run the codes. ```$ python demo.py / train.py / test.py```
 
 # Results on Dataset 2022
