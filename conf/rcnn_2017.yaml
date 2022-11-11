@@ -1,0 +1,4 @@
+# RCNN trained on 2017 dataset
+_BASE_: "base.yaml"
+
+OUTPUT_DIR: "./output/rcnn_2017"

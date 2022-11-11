@@ -1,0 +1,13 @@
+# RCNN and GLCC trained on 2022 dataset
+_BASE_: "base.yaml"
+
+MODEL:
+  WEIGHTS: "./output/rcnn_2022/model_final.pth"
+  PIXEL_MEAN: [121.877, 126.513, 106.536] # saba 2022 dataset
+  PIXEL_STD: [3.578, 3.401, 2.829]        # saba 2022 dataset
+
+DATASETS:
+  TRAIN: ("saba_2022_train",)
+  TEST: ("saba_2022_test",)
+
+OUTPUT_DIR: "./output/glcc_2022"

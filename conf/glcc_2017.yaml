@@ -1,0 +1,7 @@
+# RCNN and GLCC trained on 2017 dataset
+_BASE_: "base.yaml"
+
+MODEL:
+  WEIGHTS: "./output/rcnn_2017/model_final.pth"
+
+OUTPUT_DIR: "./output/glcc_2017"
