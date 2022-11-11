@@ -5,7 +5,7 @@ This is reimplementation of [glcc-frcn.pytorch](https://github.com/iiclab/glcc-f
 # Quick Start
 
 1. Clone this repository.
-2. Put [dataset (1.8GB)](http:www.iic.ecei.tohoku.ac.jp/~tomo/saba_glcc.tar.gz) to ```./path/to/the/repo/data```.  
+2. Put [dataset (1.8GB)](http:www.iic.ecei.tohoku.ac.jp/~tomo/saba_glcc.tar.gz) to ```path/to/the/repo/data```.  
 3. Install the [detectron2](https://github.com/facebookresearch/detectron2/blob/main/INSTALL.md)
 3. Run the codes. ```$ python demo.py / train.py / test.py```
 
