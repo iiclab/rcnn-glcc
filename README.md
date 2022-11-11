@@ -1,4 +1,4 @@
-# [Mackerel Classification using RCNN and Globa and Local Features](https://doi.org/10.1109/ACCESS.2019.2917554)
+# [Mackerel Classification using RCNN and Global and Local Features](https://doi.org/10.1109/ACCESS.2019.2917554)
 
 This is reimplementation of [glcc-frcn.pytorch](https://github.com/iiclab/glcc-frcn.pytorch).
 
@@ -11,7 +11,7 @@ This is reimplementation of [glcc-frcn.pytorch](https://github.com/iiclab/glcc-f
 
 # Results on Dataset 2022
 
-Average Precision @ IoU=0.5: 0.76
+Average Precision @ IoU=0.5: 0.76  
 Accuracy: 0.976 
 
 # Notes
